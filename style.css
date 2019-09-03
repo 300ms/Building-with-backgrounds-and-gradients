@@ -4,7 +4,6 @@ body{
     font: 12px/18px 'PT Sans', 'Ubuntu', sans-serif;
     margin:0;
     padding: 0;
-    overflow: hidden;
 }
 
 .container{
@@ -14,7 +13,7 @@ body{
     flex-direction: column;
     -webkit-align-items: flex-start;
     width: 1349px;
-    height: 1000px;
+    height: 900px;
     margin: 0;
     padding: 0;
 }
@@ -243,7 +242,7 @@ body{
 
 footer {
     width: 100%;
-    height: auto;
+    height: 130px;
     margin: 0;
     padding: 0;
 }
@@ -261,7 +260,7 @@ footer {
 .footer-p {
     display: block;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: lighter;
     width: 100%;
     height: 100%;
@@ -282,7 +281,7 @@ footer {
     list-style: none;
     margin: 0;
     padding: 5px 0 0 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
 }
 
@@ -310,41 +309,3 @@ footer a:active {
 footer a:hover {
     text-decoration: underline;
 }
-/*
-.apple {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.store {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
-}
-
-.mac {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png);
-}
-
-.ipod {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png);
-}
-
-.iphone {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png);
-}
-
-.ipad {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png);
-}
-
-.itunes {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png);
-}
-
-.support {
-    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png);
-}
-
-.search-bar {}
-
-    */
