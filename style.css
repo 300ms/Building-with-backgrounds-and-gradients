@@ -52,7 +52,19 @@ body{
     float: left;
     margin: 0;
     border: 0;
-    background-image: url(https://web.archive.org/web/20140301054857im_/http://images.apple.com/global/nav/images/globalsearch_bg.png);
+    background: url(images/nav-passive.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav-items:hover {
+    background: url(images/nav-active.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .apple-icon {
