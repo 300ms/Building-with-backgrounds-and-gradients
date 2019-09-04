@@ -24,6 +24,8 @@ body{
     margin: 80px auto 15px auto;
     height: 36px;
     color: #333;
+    background-image: linear-gradient(to top, #7e7e7e 0%, #898989 3%, #8f8f8f 6%, #8b8b8b 9%, #7b7b7b 33%, #747474 52%, #626262 55%, #636363 58%, #616161 61%, #636363 64%, #616161 67%, #646464 70%, #636363 73%, #686868 82%, #6c6c6c 85%, #777777 100%);
+    border-radius: 5px;
 }
 
 .nav-bar ul {
@@ -31,7 +33,7 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
-    width: 98%;
+    width: 990px;
     height: 36px;
     display: -webkit-flex;
     display: flex;
@@ -50,24 +52,15 @@ body{
 
 .nav-items {
     box-sizing: border-box;
-    width: 12%;
+    width: 13%;
     height: 36px;
     float: left;
     margin: 0;
     border: 0;
-    background: url(images/nav-passive.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .nav-items:hover {
-    background: url(images/nav-active.png) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: linear-gradient(to top, #606060 0%, #525252 21%, #4a4a4a 45%, #3b3b3b 48%, #3c3c3c 67%, #414141 82%, #484848 94%, #454545 100%);
 }
 
 .apple-icon {
@@ -153,7 +146,7 @@ body{
     height: 85%;
     margin: 2px 0 0 16%;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 4%;
     border:0 none;
     appearance:none;
