@@ -1,6 +1,7 @@
 html,
 body{
-    width: 1349px;
+    max-width: 1366px;
+    min-width: 1024px;
     font: 12px/18px 'PT Sans', 'Ubuntu', sans-serif;
     margin:0;
     padding: 0;
